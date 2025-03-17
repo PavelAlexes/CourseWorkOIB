@@ -10,7 +10,7 @@ public class HRUModel {
         accessMatrix = new HashMap<>();
     }
 
-    // Добавление субъекта (пользователя или процесса)
+    //. Добавление субъекта (пользователя или процесса)
     public void addSubject(String subject) {
         Map<String, Set<String>> objectMap = new HashMap<>();
         for (String object : getAllObjects()) {
